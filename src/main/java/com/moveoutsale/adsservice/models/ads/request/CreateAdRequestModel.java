@@ -11,7 +11,6 @@ import java.util.List;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CreateAdRequestModel {
-
     @JsonProperty("posted_by")
     private String postedBy;
 
